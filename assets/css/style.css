@@ -1,0 +1,349 @@
+/* ===== Global ===== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+a:hover, a:visited, a:link {
+	color: #fff !important;
+	text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6,p {
+	color: #fff !important;
+	font-family: 'Poppins', sans-serif;
+}
+.title-header {
+	position: relative;
+	margin-bottom: 100px;
+}
+h3.section-title {
+	font-size: 35px;
+	font-weight: 800;	
+	text-align: center;
+	margin-bottom: 40px;
+}
+p.section-desc {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 16px;
+}
+span.u-line {
+	height: 2px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100px;
+	position: absolute;
+	background-color: #ff4444;
+}
+
+/* ===== Navigation ===== */
+
+nav.navbar {
+	background-color: #0F1122;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 0px;
+	border: 0px;
+	margin: 0;
+}
+nav.navbar .navbar-toggle {
+	border: 0;
+}
+nav.navbar .navbar-toggle:hover,
+nav.navbar .navbar-toggle:focus {
+ 	background-color: transparent !important;
+}
+nav.navbar .navbar-toggle .icon-bar {
+	background-color: #fff !important;
+}
+nav.navbar .navbar-brand {
+	color: #fff;
+	font-family: 'Poppins' sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+}
+nav.navbar .navbar-brand span.title-dot {
+	color: #FF4444;
+	letter-spacing: 1px;
+}
+nav.navbar .nav li a {
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	padding-left: 20px;
+	padding-right: 20px;
+	letter-spacing: 1px;
+}
+
+/* ===== Home ===== */
+
+#home {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #121529;
+	margin: 0;
+}
+.site-home .social-media-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.site-home .social-media-links .navbar-nav li a {
+	border: 2px solid #ff4444;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: 0px 10px;
+	padding: 13px;
+	height: 50px;
+	width: 50px;
+	font-size: 16px;
+	transition: .2s ease-in-out;
+	text-align: center;
+}
+.site-home .social-media-links .navbar-nav li a:hover {
+	background-color: #ff4444 !important;
+	transition: .2s ease-in-out;
+}
+.site-home .intro-me {
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+}
+.site-home .intro-desc {
+	font-weight: normal;
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	text-align: center;
+}
+.site-home .home-btn {
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+	justify-content: center;
+}
+.site-home .home-btn a {
+	padding: 13px 40px;
+	border-radius: 50px;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 500;
+	border: 2px solid #ff4444;
+	transition: .2s ease-in-out;
+}
+.site-home .home-btn a.btn-services {
+	margin-right: 8px;
+	border: 2px solid #ff4444;
+	background-color: #ff4444;
+}
+.site-home .home-btn a.btn-services:hover {
+	background-color: transparent;
+	transition: .3s ease-in-out;
+}
+.site-home .home-btn a.btn-portfolio {
+	margin-left: 8px;
+	border: 2px solid #fff;
+	background-color: transparent;
+}
+.site-home .home-btn a.btn-portfolio:hover {
+	background-color: #fff;
+	color: #ff4444 !important;
+	transition: .3s ease-in-out;
+}
+#services {
+	background-color: #0F1122;
+	position: relative;
+	padding: 100px 0px;
+}
+.site-services .service-wrapper .row-second {
+	margin-top: 30px;
+}
+.site-services .service-content-wrapper {
+	background-color: #121529;
+	padding: 50px 35px;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+}
+.site-services .service-content-wrapper:hover {
+	background-color: #ff4444;
+	transition: .3s ease-in-out;
+}
+.site-services .service-content-wrapper img {
+	width: 18%;
+	margin-bottom: 30px;
+}
+.site-services .service-content-wrapper h4 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.site-services .service-content-wrapper p {
+	font-size: 14px;
+}
+#about {
+	background-color: #121529;
+	padding: 100px 0px;
+}
+.site-about img.about-me-img {
+	width: 70%;
+	margin: 0 auto;
+}
+.site-about .my-about-row h4 {
+	font-size: 25px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+.site-about .my-about-row p {
+	font-size: 16px;
+}
+.site-about .my-about-row .about-me-sub {
+	margin-top: 40px;
+}
+.site-about .my-about-row .about-me-sub h6 {
+	color: #ff4444 !important;
+	font-size: 15px;
+	margin: 0px 0px 5px 0px;
+	font-weight: 700;
+}
+.site-about .my-about-row .about-me-sub p {
+	font-size: 16px;
+}
+.site-about .my-about-row .about-me-sub .about-name-sub,
+.site-about .my-about-row .about-me-sub .about-location-sub {
+	margin-bottom: 30px;
+}
+#work-together {
+	background-color: #0F1122;
+	padding: 100px 0px;
+}
+.site-work-together h4 {
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+.site-work-together p {
+	font-size: 16px;
+}
+#portfolio {
+	background-color: #121529;
+	padding: 100px 0px;
+}
+.site-portfolio .nav-menu-portfolio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.site-portfolio .nav-menu-portfolio ul li a {
+	background-color: #0F1122;
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-family: 'Poppins', sans-serif;
+}
+#contact {
+	background-color: #0F1122;
+	padding: 100px 0px;
+}
+.site-contact .elc-wrapper {
+	background-color: #121529;
+	padding: 20px 50px;
+	margin-bottom: 50px;
+}
+.site-contact .elc-wrapper img {
+	width: 15%;
+	float: left;
+}
+.site-contact .contact-textfields input[type="text"],
+.site-contact .contact-textfields input[type="email"],
+.site-contact .contact-textfields textarea {
+	width: 100%;
+	border: 0px;
+	background-color: #121529;
+	padding: 20px 30px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.site-contact .contact-textfields input[type="text"]:focus,
+.site-contact .contact-textfields input[type="email"]:focus,
+.site-contact .contact-textfields textarea:focus {
+	outline-color: #ff4444;
+	outline-width: 0px;
+	outline-style: auto;
+}
+.site-contact .contact-textfields input[type="text"]::placeholder,
+.site-contact .contact-textfields input[type="email"]::placeholder,
+.site-contact .contact-textfields textarea::placeholder {
+	color: #c8c8ca;
+}
+.site-contact .contact-textfields textarea {
+	height: 200px;
+}
+.site-contact .contact-textfields input[type="button"] {
+	background-color: #ff4444;
+	border: 0px;
+	padding: 15px 40px;
+	border-radius: 50px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 500;
+	transition: .3s ease-in-out;
+}
+#extend {
+	background-color: #121529;
+	padding: 100px 0px;
+}
+#extend h1,
+#extend p {
+	text-align: center;
+}
+#extend h1 {
+	font-weight: 800;
+	font-size: 40px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+#extend p {
+	font-size: 20px;
+}
+
+.site-extend .social-media-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+.site-extend .social-media-links .navbar-nav li a {
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: 0px 10px;
+	padding: 15px;
+	height: 50px;
+	width: 50px;
+	font-size: 16px;
+	transition: .2s ease-in-out;
+	text-align: center;
+	background-color: #0F1122;
+}
+.site-extend .social-media-links .navbar-nav li a:hover {
+	background-color: #ff4444 !important;
+	transition: .2s ease-in-out;
+}
+
+#footer {
+	background-color: #0F1122;
+	padding: 30px 0px;
+}
+.site-footer p {
+	text-align: center;
+	margin: 0;
+}
